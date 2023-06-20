@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Enrollment Form</title>
+</head>
+<body>
+  <h1>Student Enrollment Form</h1>
+  <form action="process_form.php" method="POST">
+    <label for="rollNo">Roll No:</label>
+    <input type="text" id="rollNo" name="rollNo" required><br><br>
+
+    <label for="fullName">Full Name:</label>
+    <input type="text" id="fullName" name="fullName" required><br><br>
+
+    <label for="class">Class:</label>
+    <input type="text" id="class" name="class" required><br><br>
+
+    <label for="birthDate">Birth Date:</label>
+    <input type="date" id="birthDate" name="birthDate" required><br><br>
+
+    <label for="address">Address:</label>
+    <textarea id="address" name="address" required></textarea><br><br>
+
+    <label for="enrollmentDate">Enrollment Date:</label>
+    <input type="date" id="enrollmentDate" name="enrollmentDate" required><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
